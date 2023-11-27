@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #d9dcd6;
+}
+
+.header {
+  font-size: 20px;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: darkgreen;
+  color: #ffffff;
+}
+
+.background-separation {
+  background-color: black;
+}
+.header h1 {
+  display: inline-block;
+  font-size: 50px;
+  background-color: grey;
+}
+
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+.spacer {
+  height: 150px;
+  width: 100%;
+  /* margin-bottom: 25px; */
+  background-color: rgb(0, 0, 0);
+  margin: 5px;
+}
+
+.content {
+  margin-left: 5px;
+}
+
+#personal {
+  height: 150px;
+}
+
+#about-me-header {
+  height: 100%;
+  width: 20%;
+  text-align: center;
+  border-right: 5px solid white;
+}
+#about-me-text {
+  width: 80%;
+  /* justify-content: center; */
+  float: right;
+}
+
+.work {
+  margin-bottom: 20px;
+
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+  width: 100%;
+}
+
+#applications-header {
+  height: 100%;
+  width: 20%;
+  float: left;
+  border-right: 5px solid white;
+}
+
+#applictions-text {
+  width: auto;
+}
+
+#portfolio {
+  height: 600px;
+
+  background-color: red;
+}
+
+.card-container {
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-basis: auto; */
+  flex-wrap: wrap;
+  float: right;
+
+  height: 450px;
+  width: 78%;
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+}
+
+.app-cards {
+  display: inline;
+  width: auto;
+  flex: 1 0 auto;
+  /* height: 200px;
+  width: 200px; */
+}
+
+#app-1 {
+  height: 100%;
+  width: 100px;
+  flex: 10 1 auto;
+  margin: auto;
+}
+
+#app-2,
+#app-3,
+#app-4,
+#app-5 {
+  flex: 1 1 auto;
+  height: 50%;
+  margin-left: 10px;
+}
+
+div {
+  padding: 10px;
+  margin: 10px;
+  background: yellow;
+}
+
+.work h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.footer {
+  padding: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: left;
+  background-color: grey;
+  margin: 5px;
+}
+
+.footer h2 {
+  font-size: 20px;
+}
