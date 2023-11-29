@@ -5,25 +5,36 @@
 }
 
 body {
-  background-color: #d9dcd6;
+  background-color: #d6d6dc;
 }
 
 .header {
-  font-size: 20px;
+  font-size: 60px;
   padding: 20px;
+
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: darkgreen;
-  color: #ffffff;
+  /* background-color: darkblue */
+  color: rgb(3, 13, 51);
+  border: gold solid;
 }
 
-.background-separation {
-  background-color: black;
+.header img {
+  float: center;
+  /* padding: 15px; */
+  width: 100px;
+  height: 100px;
+  border: gold solid;
 }
+
+/* .background-separation {
+  background-color: black;
+} */
+
 .header h1 {
   display: inline-block;
   font-size: 50px;
-  background-color: grey;
+  /* background-color: grey; */
 }
 
 .header nav {
@@ -36,8 +47,8 @@ body {
 
 .header nav ul li {
   display: inline-block;
-  margin-left: 30px;
-  font-size: 15px;
+  margin-left: 20px;
+  font-size: 30px;
 }
 
 a {
@@ -46,35 +57,56 @@ a {
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
+  color: rgb(3, 13, 51);
 }
 
 .spacer {
+  display: flex;
   height: 150px;
   width: 100%;
   /* margin-bottom: 25px; */
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(3, 13, 51);
   margin: 5px;
+  border: gold solid;
 }
 
 .content {
+  /* display: flex; */
+  flex-direction: column;
   margin-left: 5px;
 }
 
 #personal {
+  display: flex;
+  /* justify-content: center; */
   height: 150px;
+  border: gold solid;
 }
 
 #about-me-header {
+  color: rgb(3, 13, 51);
+  /* display: flex; */
+  /* justify-content: center; */
   height: 100%;
   width: 20%;
-  text-align: center;
   border-right: 5px solid white;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
 }
+
 #about-me-text {
+  display: flex;
+  height: 100%;
   width: 80%;
   /* justify-content: center; */
   float: right;
+  align-items: center;
+}
+#about-me-text p {
+  flex: 1;
+  align-items: center;
 }
 
 .work {
@@ -88,20 +120,34 @@ p {
 }
 
 #applications-header {
+  display: flex;
+  justify-content: center;
   height: 100%;
   width: 20%;
   float: left;
   border-right: 5px solid white;
+  color: rgb(3, 13, 51);
+  text-align: center;
 }
 
 #applictions-text {
-  width: auto;
+  display: flex;
+  color: (3, 13, 51);
+  height: 20px;
+  width: 80%;
+  font-size: 20px;
+}
+
+#applictions-text p {
+  display: flex;
+  font-size: 30px;
 }
 
 #portfolio {
   height: 600px;
+  border: gold solid;
 
-  background-color: red;
+  /* background-color: red; */
 }
 
 .card-container {
@@ -109,43 +155,52 @@ p {
   /* flex-direction: column; */
   /* flex-basis: auto; */
   flex-wrap: wrap;
-  float: right;
+  /* float: right; */
 
-  height: 450px;
+  height: 525px;
   width: 78%;
   padding: 10px;
-  margin: 10px;
-  background: aqua;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  /* margin: 10px; */
+  /* background: aqua; */
 }
 
 .app-cards {
-  display: inline;
+  /* display: block; */
   width: auto;
-  flex: 1 0 auto;
+  /* flex: 1 0 auto; */
   /* height: 200px;
   width: 200px; */
 }
 
 #app-1 {
-  height: 100%;
-  width: 100px;
-  flex: 10 1 auto;
-  margin: auto;
+  /* background-color: blue; */
+  background-image: url("/Assets/images/student-849825_640.jpg");
+  flex: 1.5 1 auto;
+  margin: 5px;
+  border: black solid;
+}
+
+img {
+  object-fit: cover;
 }
 
 #app-2,
 #app-3,
-#app-4,
-#app-5 {
+#app-4 {
   flex: 1 1 auto;
-  height: 50%;
-  margin-left: 10px;
+  height: 100%;
+  margin: 5px;
+  border: black solid;
+  background-image: url("/Assets/images/student-849825_640.jpg");
 }
 
 div {
   padding: 10px;
   margin: 10px;
-  background: yellow;
+  /* background: yellow; */
 }
 
 .work h2 {
@@ -153,15 +208,45 @@ div {
   font-size: 36px;
 }
 
-.footer {
-  padding: 30px;
+.footer-container {
+  display: flex;
+  border: gold solid;
+  padding: 10px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  text-align: left;
-  background-color: grey;
+  /* text-align: left; */
+  background-color: #0072bb;
   margin: 5px;
 }
 
-.footer h2 {
-  font-size: 20px;
+.footer-header {
+  /* display: flex; */
+  /* align-items: center; */
+  /* height: 100%; */
+  width: 19%;
+  float: left;
+  border-right: 5px solid white;
+}
+
+.footer-text {
+  display: flex;
+  flex: 1;
+}
+.email {
+  flex: 1;
+  border: black solid;
+}
+
+.linked-in {
+  flex: 1;
+  border: black solid;
+}
+
+a {
+  color: black;
+}
+
+.phone {
+  flex: 1;
+  border: black solid;
 }
