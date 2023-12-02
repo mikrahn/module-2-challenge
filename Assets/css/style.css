@@ -139,7 +139,8 @@ p {
 }
 
 #applictions-text p {
-  display: flex;
+  /* display: flex;
+  flex-direction: column; */
   font-size: 30px;
 }
 
@@ -153,12 +154,13 @@ p {
 .card-container {
   display: flex;
   /* flex-direction: column; */
-  /* flex-basis: auto; */
+  /* width: 75%; */
   flex-wrap: wrap;
-  /* float: right; */
+  align-items: stretch;
+  height: 95%;
 
-  height: 525px;
-  width: 78%;
+  /* height: 525px;
+  width: 78%; */
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -169,16 +171,16 @@ p {
 
 .app-cards {
   /* display: block; */
-  width: auto;
+  /* width: auto; */
   /* flex: 1 0 auto; */
   /* height: 200px;
   width: 200px; */
 }
 
 #app-1 {
-  /* background-color: blue; */
-  background-image: url("/Assets/images/student-849825_640.jpg");
-  flex: 1.5 1 auto;
+  flex: 2;
+  height: 100%;
+  /* width: auto; */
   margin: 5px;
   border: black solid;
 }
@@ -190,17 +192,19 @@ img {
 #app-2,
 #app-3,
 #app-4 {
-  flex: 1 1 auto;
+  flex: 1;
   height: 100%;
+
+  /* overflow: hidden; */
+  /* min-width: 100px; */
+
   margin: 5px;
   border: black solid;
-  background-image: url("/Assets/images/student-849825_640.jpg");
 }
 
 div {
   padding: 10px;
   margin: 10px;
-  /* background: yellow; */
 }
 
 .work h2 {
