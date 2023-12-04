@@ -62,12 +62,21 @@ p {
   display: flex;
   height: 150px;
   width: 100%;
-  /* margin-bottom: 25px; */
-  background-color: rgb(3, 13, 51);
+  background-image: url(../images/jaguar.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: rgb(13, 76, 99);
   margin: 5px;
   border: gold solid;
 }
 
+.jaguar-text {
+  margin-left: 75%;
+  font-size: 30px;
+  color: goldenrod;
+
+  right: auto;
+}
 .content {
   /* display: flex; */
   flex-direction: column;
@@ -119,6 +128,8 @@ p {
 
 #applications-header {
   display: flex;
+  flex-direction: column;
+  align-items: top;
   justify-content: center;
   height: 100%;
   width: 20%;
@@ -239,9 +250,6 @@ div {
 }
 
 .footer-header {
-  /* display: flex; */
-  /* align-items: center; */
-  /* height: 100%; */
   width: 19%;
   float: left;
   border-right: 5px solid white;
@@ -250,6 +258,7 @@ div {
 .footer-text {
   display: flex;
   flex: 1;
+  color: goldenrod;
 }
 .email {
   flex: 1;
@@ -259,6 +268,7 @@ div {
 .linked-in {
   flex: 1;
   border: black solid;
+  color: goldenrod;
 }
 
 a {
