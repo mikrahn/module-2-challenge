@@ -174,14 +174,6 @@ h4 {
   margin-right: 10px;
 }
 
-.app-cards {
-  /* display: block; */
-  /* width: auto; */
-  /* flex: 1 0 auto; */
-  /* height: 200px;
-  width: 200px; */
-}
-
 #app-1 {
   flex: 2;
   height: 100%;
@@ -225,7 +217,6 @@ img {
   color: rgb(245, 161, 66);
 
   margin: 5px;
-  /* border: black solid; */
 }
 
 div {
@@ -244,7 +235,7 @@ div {
   padding: 10px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  /* text-align: left; */
+
   background-color: #0072bb;
   margin: 5px;
 }
@@ -268,6 +259,10 @@ div {
 .linked-in {
   flex: 1;
   border: black solid;
+  color: goldenrod;
+}
+
+.linked-in a {
   color: goldenrod;
 }
 

@@ -9,7 +9,7 @@
     3. A work / portfolio with links to my work
     4. A footer section with my contact information
 
-Here is screenshot of my site:
+Here is screenshot of my site and url link:
 
 [Assets\images\Screenshot 2023-12-03 185608.png]
 
@@ -17,4 +17,4 @@ Here is screenshot of my site:
 
 ![portfolio demo](./Assets/images/Screenshot%202023-12-03%20185608.png)
 
-Here is a link to the deployed application:
+[Click here to see the live site!](https://mikrahn.github.io/module-2-challenge/)
